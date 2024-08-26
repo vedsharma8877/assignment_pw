@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Card</title>
+</head>
+
+<body>
+    <div class="card">
+        <h2>YAY! It's BOGO</h2>
+
+        <div id="option-div1" class="option" onclick="toggleDivs()">
+            <div class="badge">
+                <span>30%</span>
+                <span>Off</span>
+            </div>
+            <div class="details">
+                <input type="radio" name="offer" class="custom-radio" checked>
+                <div class="text">
+                    <span class="buy-get">Buy 1 Get 2</span>
+                    <span class="amount">$18.00 USD</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="selector-div1" onclick="toggleDivs()" class="max-card" style="display: none;">
+            <div style="width: 60%;padding: 15px;">
+                <div class="details1">
+                    <input type="radio" name="offer" class="custom-radio">
+                    <div class="text">
+                        <p class="buy-get">
+                            Buy 1 Get 2 <span class="discount-badge">10% Off</span>
+                        </p>
+                        <span class="amount">
+                            $18.00 USD <span class="original-price">$40.00 USD</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="parent-div">
+                    <div class="child-div pointers">
+                        <p></p>
+                        <div><label>#1</label></div>
+                        <div><label>#2</label></div>
+                    </div>
+                    <div class="child-div">
+                        <div class="div-label">Size</div>
+                        <div><select>
+                                <option>S</option>
+                            </select></div>
+                        <div><select>
+                                <option>S</option>
+                            </select></div>
+                    </div>
+                    <div class="child-div">
+                        <div class="div-label">Color</div>
+                        <div><select>
+                                <option>Black</option>
+                            </select></div>
+                        <div><select>
+                                <option>Black</option>
+                            </select></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="option-div2" class="option" onclick="toggleDivs()">
+            <div class="badge">
+                <span>30%</span>
+                <span>Off</span>
+            </div>
+            <div class="card-wrapper">
+                <div class="details">
+                    <input type="radio" name="offer" class="custom-radio">
+                    <div class="text">
+                        <span class="buy-get">Buy 2 Get 4</span>
+                        <span class="amount">$24.00 USD</span>
+                    </div>
+                </div>
+                <div>
+                    <span class="tag">Most Popular</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="selector-div2" onclick="toggleDivs()" class="max-card" style="display: none;">
+            <div style="width: 60%;padding: 15px;">
+                <div class="details1">
+                    <input type="radio" name="offer" class="custom-radio">
+                    <div class="text">
+                        <p class="buy-get">
+                            Buy 2 Get 4 <span class="discount-badge">10% Off</span>
+                        </p>
+                        <span class="amount">
+                            $24.00 USD <span class="original-price">$40.00 USD</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="parent-div">
+                    <div class="child-div pointers">
+                        <p></p>
+                        <div><label>#1</label></div>
+                        <div><label>#2</label></div>
+                    </div>
+                    <div class="child-div">
+                        <div class="div-label">Size</div>
+                        <div><select>
+                                <option>S</option>
+                            </select></div>
+                        <div><select>
+                                <option>S</option>
+                            </select></div>
+                    </div>
+                    <div class="child-div">
+                        <div class="div-label">Color</div>
+                        <div><select>
+                                <option>Black</option>
+                            </select></div>
+                        <div><select>
+                                <option>Black</option>
+                            </select></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="option-div3" class="option" onclick="toggleDivs()">
+            <div class="badge">
+                <span>30%</span>
+                <span>Off</span>
+            </div>
+            <div class="card-wrapper">
+                <div class="details">
+                    <input type="radio" name="offer" class="custom-radio">
+                    <div class="text">
+                        <span class="buy-get">Buy 2 Get 4</span>
+                        <span class="amount">$24.00 USD</span>
+                    </div>
+                </div>
+                <div>
+                    <span class="tag">Most Popular</span>
+                </div>
+            </div>
+        </div>
+
+        <div id="selector-div3" onclick="toggleDivs()" class="max-card" style="display: none;">
+            <div style="width: 60%;padding: 15px;">
+                <div class="details1">
+                    <input type="radio" name="offer" class="custom-radio">
+                    <div class="text">
+                        <p class="buy-get">
+                            Buy 3 Get 6 <span class="discount-badge">10% Off</span>
+                        </p>
+                        <span class="amount">
+                            $36.00 USD <span class="original-price">$40.00 USD</span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="parent-div">
+                    <div class="child-div pointers">
+                        <p></p>
+                        <div><label>#1</label></div>
+                        <div><label>#2</label></div>
+                    </div>
+                    <div class="child-div">
+                        <div class="div-label">Size</div>
+                        <div><select>
+                                <option>S</option>
+                            </select></div>
+                        <div><select>
+                                <option>S</option>
+                            </select></div>
+                    </div>
+                    <div class="child-div">
+                        <div class="div-label">Color</div>
+                        <div><select>
+                                <option>Black</option>
+                            </select></div>
+                        <div><select>
+                                <option>Black</option>
+                            </select></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <span class="text-color">Free Delivery</span>
+            <span class="total">Total: $18.00 USD</span>
+        </div>
+
+        <button class="btn">+ Add to Cart</button>
+        <p class="powered-by">Powered by <span class="pumper">Pumper</span></p>
+    </div>
+    <script src="script.js"></script>   
+</body>
+
+</html>
